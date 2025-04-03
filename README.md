@@ -123,3 +123,10 @@ This file contains the questions, options, and correct answers in a structured f
     ]
   }
   
+  ### `index.js`
+
+This file contains the logic for the quiz:
+- Loads and displays questions with options from `db.json`.
+- Allows users to select an answer.
+- Handles submission and displays the results with the score.
+- Resets the quiz when the user clicks "Play Again".
